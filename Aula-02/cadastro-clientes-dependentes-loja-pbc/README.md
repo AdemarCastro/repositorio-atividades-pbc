@@ -2,11 +2,11 @@
 
 ## Documento Oficial da Atividade
 
-<img src="src/imagens/doc-avaliacao.png" width="80%">
+<img src="src/imagens/doc-avaliacao.png" width="50%">
 
 ## Exemplo de Saída
 
-<img src="src/imagens/exemplo-saida.png" width="70%">
+<img src="src/imagens/exemplo-saida.png" width="50%">
 
 # Projeto Baseado em Componentes - PBC
 
