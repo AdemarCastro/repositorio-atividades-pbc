@@ -1,7 +1,6 @@
 package view;
 
 import model.Cliente;
-import repositorio.ClienteRepositorio;
 
 import java.util.List;
 import java.util.Scanner;

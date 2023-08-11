@@ -6,7 +6,6 @@ import java.util.Scanner;
 
 import model.Dependente;
 import model.RelacaoEnum;
-import util.Validacao;
 
 public class DependenteUI {
 

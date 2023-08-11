@@ -1,6 +1,10 @@
 package model;
 
-import util.Validacao;
+import util.ValidadorCPF;
+import util.ValidadorEmail;
+import util.ValidadorSomenteLetrasEEspaco;
+import util.ValidadorSomenteLetrasEEspacoComAcentos;
+import util.ValidadorTelefone;
 
 public class Pessoa {
 
@@ -33,7 +37,7 @@ public class Pessoa {
     }
 
     public void setNome(String nome) {
-        Validacao.validarSomenteLetrasEEspacoComAcentos(nome);
+        new ValidadorSomenteLetrasEEspacoComAcentos().validar(nome);
         this.nome = nome;
     }
 
@@ -42,7 +46,7 @@ public class Pessoa {
     }
 
     public void setEndereco(String endereco) {
-        Validacao.validarSomenteLetrasEEspacoComAcentos(endereco);
+    	new ValidadorSomenteLetrasEEspacoComAcentos().validar(endereco);
         this.endereco = endereco;
     }
 
@@ -51,7 +55,7 @@ public class Pessoa {
     }
 
     public void setTelefone(String telefone) {
-        Validacao.validarFomatoNumeroTelefone(telefone);
+        new ValidadorTelefone().validar(telefone);
         this.telefone = telefone;
     }
 
@@ -60,7 +64,7 @@ public class Pessoa {
     }
 
     public void setEmail(String email) {
-        Validacao.validarFormatoEmail(email);
+        new ValidadorEmail().validar(email);
         this.email = email;
     }
 
@@ -69,7 +73,7 @@ public class Pessoa {
     }
 
     public void setCpf(String cpf) {
-        Validacao.validarFormatoCpf(cpf);
+    	new ValidadorCPF().validar(cpf);
         this.cpf = cpf;
     }
 

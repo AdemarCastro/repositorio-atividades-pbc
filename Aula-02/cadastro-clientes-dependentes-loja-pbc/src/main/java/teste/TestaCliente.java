@@ -12,7 +12,7 @@ public class TestaCliente {
     Cliente cliente1 = new Cliente("Rogerio", "Rua A", "+55 (92) 00000-0000",
         "rogerio@email.com", "000.000.555-33");
     cliente1.addDependente(new Dependente("Filho Um", "Rua D", "+55 (92) 00000-0000",
-        "filho01@email.com", "000.000.555-22", RelacaoEnum.valueOf(DependenteUI.formatarTexto("MÃ£e"))));
+        "filho01@email.com", "000.000.555-22", RelacaoEnum.valueOf(DependenteUI.formatarTexto("Mãe"))));
     cliente1.addDependente(new Dependente("Filho Dois", "Rua E", "+55 (92) 00000-0000",
         "filho02@email.com", "000.000.555-11", RelacaoEnum.Mae));
 
@@ -22,7 +22,7 @@ public class TestaCliente {
       System.out.println("telefone:" + dependente.getTelefone());
       System.out.println("email:" + dependente.getEmail());
       System.out.println("cpf:" + dependente.getCpf());
-      System.out.println("RelaÃ§Ã£o:" + dependente.getRelacao());
+      System.out.println("relação:" + dependente.getRelacao());
     }
 
   }
