@@ -20,7 +20,7 @@ public class AddressValidatorTest {
             System.out.println("A valid address should pass.");
             assertTrue(true);
         } catch (ValidationException e) {
-            fail("!ERROR: A valid address should not fail validation: " + e.getMessage());
+            fail("A valid address should not fail validation: " + e.getMessage());
         }
     }
 
