@@ -1,5 +1,7 @@
 package model;
 
+import exceptions.ValidationException;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -16,8 +18,8 @@ public class Cliente extends Pessoa {
 
     // Para reutilizar o construtor da Super Classe Pessoa eu preciso referenciar o
     // construtor na classe Cliente
-    public Cliente(String nome, String endereco, String telefone, String email, String cpf) {
-        super(nome, endereco, telefone, email, cpf);
+    public Cliente(String nome, String endereco, String telefone, String email, String id, String tipo) throws ValidationException {
+        super(nome, endereco, telefone, email, id, tipo);
     }
 
     // Faltou fazer a relação de Cliente para Dependente

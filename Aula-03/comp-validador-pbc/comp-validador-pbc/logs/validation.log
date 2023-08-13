@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2023-08-13T05:08:56.129597800Z</date>
+  <millis>1691903336129</millis>
+  <nanos>597800</nanos>
+  <sequence>0</sequence>
+  <logger>validators.CNPJValidator</logger>
+  <level>INFO</level>
+  <class>base.Validator</class>
+  <method>check</method>
+  <thread>1</thread>
+  <message>Validation successfull: CNPJ</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2023-08-13T05:09:03.251729800Z</date>
+  <millis>1691903343251</millis>
+  <nanos>729800</nanos>
+  <sequence>0</sequence>
+  <logger>validators.CNPJValidator</logger>
+  <level>WARNING</level>
+  <class>base.Validator</class>
+  <method>check</method>
+  <thread>1</thread>
+  <message>Validation error: CNPJ: CNPJ does not exist.</message>
+</record>
+</log>

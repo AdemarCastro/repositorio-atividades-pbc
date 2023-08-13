@@ -4,6 +4,7 @@ import java.text.Normalizer;
 import java.util.List;
 import java.util.Scanner;
 
+import exceptions.ValidationException;
 import model.Dependente;
 import model.RelacaoEnum;
 
@@ -27,8 +28,41 @@ public class DependenteUI {
         System.out.print("E-mail: ");
         String email = entrada.nextLine();
 
-        System.out.print("CPF ou CNPJ: ");
-        String id = entrada.nextLine();
+        String id = "";
+        String tipo = "";
+
+        while (true) {
+            System.out.println("  Pessoa Física ou Jurídica?");
+            System.out.println("  1. Física (CPF)");
+            System.out.println("  2. Jurídica (CNPJ)");
+
+            System.out.println("-------------------------------------------");
+
+            System.out.print("  Selecione opção: ");
+
+            try {
+                int opcao = entrada.nextInt();
+
+                if (opcao == 1) {
+                    System.out.print("\n  CPF: ");
+                    id = entrada.nextLine();
+                    tipo = "cpf";
+                    break;
+                } else if (opcao == 2) {
+                    System.out.print("\n  CNPJ: ");
+                    id = entrada.nextLine();
+                    tipo = "cnpj";
+                    break;
+                } else {
+                    System.out.println("Opção inválida: Insira os valores 1 ou 2.");
+                }
+
+            } catch (java.util.InputMismatchException e) {
+                entrada.nextLine();
+                System.out.println("Opção inválida: Insira um valor númerico.");
+            }
+
+        }
 
         System.out.print("Relação: ");
         String relacao = entrada.nextLine();
@@ -36,10 +70,10 @@ public class DependenteUI {
         System.out.println("-------------------------------------------");
 
         try {
-            Dependente dependente = new Dependente(nome, endereco, telefone, email, id,
+            Dependente dependente = new Dependente(nome, endereco, telefone, email, id, tipo,
                     RelacaoEnum.valueOf(formatarTexto(relacao)));
             return dependente;
-        } catch (RuntimeException e) {
+        } catch (RuntimeException | ValidationException e) {
             System.out.println("ERRO! Não foi possível inserir pessoa: " + e.getMessage());
         }
 
@@ -56,7 +90,13 @@ public class DependenteUI {
             System.out.println("    Endereço: " + dependente.getEndereco());
             System.out.println("    Telefone: " + dependente.getTelefone());
             System.out.println("    Email: " + dependente.getEmail());
-            System.out.println("    CPF: " + dependente.getCpf());
+
+            if (dependente.getCpf() != null) {
+                System.out.println("CPF: " + dependente.getCpf());
+            } else if (dependente.getCnpj() != null) {
+                System.out.println("CNPJ: " + dependente.getCnpj());
+            }
+
             System.out.println("    Relação: " + dependente.getRelacao());
 
             numDependente++;

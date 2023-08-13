@@ -1,13 +1,15 @@
 package model;
 
+import exceptions.ValidationException;
+
 public class Dependente extends Pessoa {
 
     public Dependente() {
         super();
     }
 
-    public Dependente(String nome, String endereco, String telefone, String email, String cpf, RelacaoEnum relacao) {
-        super(nome, endereco, telefone, email, cpf);
+    public Dependente(String nome, String endereco, String telefone, String email, String id, String tipo, RelacaoEnum relacao) throws ValidationException {
+        super(nome, endereco, telefone, email, id, tipo);
         this.relacao = relacao;
     }
 

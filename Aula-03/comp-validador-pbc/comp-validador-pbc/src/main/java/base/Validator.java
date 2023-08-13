@@ -25,7 +25,7 @@ public abstract class Validator {
         // Configure the logger
         logger = Logger.getLogger(this.getClass().getName());
         try {
-            FileHandler fileHandler = new FileHandler("validation.log", true);
+            FileHandler fileHandler = new FileHandler("logs/validation.log", true);
             logger.addHandler(fileHandler);
         } catch (IOException e) {
             logger.log(Level.SEVERE, "Error setting up logger", e);
