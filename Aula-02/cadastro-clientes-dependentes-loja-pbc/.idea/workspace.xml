@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="Validador" />
+    </artifacts-to-build>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="db4cf648-7f37-4045-a068-7295d95cd1d7" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../../Aula-03/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Aula-03/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Aula-03/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Aula-03/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Aula-03/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Aula-03/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Aula-03/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Aula-03/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Aula-03/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Aula-03/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Aula-03/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Aula-03/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Aula-03/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Aula-03/bin/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Aula-03/bin/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Aula-03/bin/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Aula-03/bin/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Aula-03/bin/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Aula-03/bin/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Aula-03/bin/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Aula-03/bin/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Aula-03/bin/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Aula-03/bin/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Aula-03/bin/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Aula-03/bin/src/imagens/doc-avaliacao.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Aula-03/bin/src/imagens/exemplo-saida.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Aula-03/bin/src/main/java/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Aula-03/bin/src/main/java/controller/ClienteController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Aula-03/bin/src/main/java/controller/DependenteController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Aula-03/bin/src/main/java/controller/HomeController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Aula-03/bin/src/main/java/model/Cliente.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Aula-03/bin/src/main/java/model/Dependente.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Aula-03/bin/src/main/java/model/Pessoa.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Aula-03/bin/src/main/java/repositorio/ClienteRepositorio.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Aula-03/bin/src/main/java/teste/TestaCliente.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Aula-03/bin/src/main/java/util/Validacao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Aula-03/bin/src/main/java/util/ValidadorCPF.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Aula-03/bin/src/main/java/util/ValidadorEmail.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Aula-03/bin/src/main/java/util/ValidadorSomenteLetrasEEspaco.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Aula-03/bin/src/main/java/util/ValidadorSomenteLetrasEEspacoComAcentos.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Aula-03/bin/src/main/java/util/ValidadorTelefone.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Aula-03/bin/src/main/java/view/ClienteUI.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Aula-03/bin/src/main/java/view/DependenteUI.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Aula-03/bin/src/main/resources/META-INF/maven/archetype.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Aula-03/bin/src/main/resources/archetype-resources/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Aula-03/bin/src/main/resources/archetype-resources/src/main/java/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Aula-03/bin/src/main/resources/archetype-resources/src/test/java/AppTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Aula-03/comp-validador-pbc/comp-validador-pbc/src/main/java/base/Validator.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Aula-03/comp-validador-pbc/comp-validador-pbc/src/main/java/base/Validator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Aula-03/comp-validador-pbc/comp-validador-pbc/src/main/java/exceptions/ValidationException.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Aula-03/comp-validador-pbc/comp-validador-pbc/src/main/java/exceptions/ValidationException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Aula-03/comp-validador-pbc/comp-validador-pbc/src/main/java/validators/AddressValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Aula-03/comp-validador-pbc/comp-validador-pbc/src/main/java/validators/AddressValidator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Aula-03/comp-validador-pbc/comp-validador-pbc/src/main/java/validators/CNPJValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Aula-03/comp-validador-pbc/comp-validador-pbc/src/main/java/validators/CNPJValidator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Aula-03/comp-validador-pbc/comp-validador-pbc/src/main/java/validators/CPFValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Aula-03/comp-validador-pbc/comp-validador-pbc/src/main/java/validators/CPFValidator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Aula-03/comp-validador-pbc/comp-validador-pbc/src/main/java/validators/EmailValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Aula-03/comp-validador-pbc/comp-validador-pbc/src/main/java/validators/EmailValidator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Aula-03/comp-validador-pbc/comp-validador-pbc/src/main/java/validators/EndressValidator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Aula-03/comp-validador-pbc/comp-validador-pbc/src/main/java/validators/NameValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Aula-03/comp-validador-pbc/comp-validador-pbc/src/main/java/validators/NameValidator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Aula-03/comp-validador-pbc/comp-validador-pbc/src/main/java/validators/PhoneValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Aula-03/comp-validador-pbc/comp-validador-pbc/src/main/java/validators/PhoneValidator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Aula-03/comp-validador-pbc/comp-validador-pbc/src/test/java/AddressValidationTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Aula-03/comp-validador-pbc/comp-validador-pbc/src/test/java/AddressValidatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Aula-03/comp-validador-pbc/comp-validador-pbc/src/test/java/AddressValidatorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Aula-03/comp-validador-pbc/comp-validador-pbc/src/test/java/CNPJValidatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Aula-03/comp-validador-pbc/comp-validador-pbc/src/test/java/CNPJValidatorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Aula-03/comp-validador-pbc/comp-validador-pbc/src/test/java/CPFValidatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Aula-03/comp-validador-pbc/comp-validador-pbc/src/test/java/CPFValidatorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Aula-03/comp-validador-pbc/comp-validador-pbc/src/test/java/EmailValidatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Aula-03/comp-validador-pbc/comp-validador-pbc/src/test/java/EmailValidatorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Aula-03/comp-validador-pbc/comp-validador-pbc/src/test/java/EndressValidationTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Aula-03/comp-validador-pbc/comp-validador-pbc/src/test/java/NameValidatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Aula-03/comp-validador-pbc/comp-validador-pbc/src/test/java/NameValidatorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Aula-03/comp-validador-pbc/comp-validador-pbc/src/test/java/PhoneValidatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Aula-03/comp-validador-pbc/comp-validador-pbc/src/test/java/PhoneValidatorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Aula-03/comp-validador-pbc/comp-validador-pbc/src/test/java/TesteValidator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Aula-03/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Aula-03/src/imagens/doc-avaliacao.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Aula-03/src/imagens/exemplo-saida.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Aula-03/src/main/java/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Aula-03/src/main/java/controller/ClienteController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Aula-03/src/main/java/controller/ClienteController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Aula-03/src/main/java/controller/DependenteController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Aula-03/src/main/java/controller/DependenteController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Aula-03/src/main/java/controller/HomeController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Aula-03/src/main/java/controller/HomeController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Aula-03/src/main/java/model/Cliente.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Aula-03/src/main/java/model/Cliente.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Aula-03/src/main/java/model/Dependente.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Aula-03/src/main/java/model/Dependente.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Aula-03/src/main/java/model/Pessoa.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Aula-03/src/main/java/model/Pessoa.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Aula-03/src/main/java/model/RelacaoEnum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Aula-03/src/main/java/model/RelacaoEnum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Aula-03/src/main/java/repositorio/ClienteRepositorio.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Aula-03/src/main/java/repositorio/ClienteRepositorio.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Aula-03/src/main/java/teste/TestaCliente.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Aula-03/src/main/java/view/ClienteUI.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Aula-03/src/main/java/view/ClienteUI.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Aula-03/src/main/java/view/DependenteUI.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Aula-03/src/main/java/view/DependenteUI.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Aula-03/src/main/resources/META-INF/maven/archetype.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Aula-03/src/main/resources/archetype-resources/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Aula-03/src/main/resources/archetype-resources/src/main/java/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Aula-03/src/main/resources/archetype-resources/src/test/java/AppTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Aula-03/target/classes/Main.class" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2Ts00tw7s25NoLiGbtlAWXufUnN" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Adema.DESKTOP-MKK2GAA/Desktop/Trabalho/TADS/4º SEMESTRE/PBC/repositorio-atividades-pbc/Aula-03&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Artifacts&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="projeto-baseado-em-componentes-pbc" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="cadastro-clientes-dependentes-loja-pbc" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="cadastro-clientes-dependentes-loja-pbc" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="db4cf648-7f37-4045-a068-7295d95cd1d7" name="Changes" comment="" />
+      <created>1691816260965</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1691816260965</updated>
+      <workItem from="1691816262345" duration="3571000" />
+      <workItem from="1691840542354" duration="12441000" />
+      <workItem from="1691878439274" duration="6063000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

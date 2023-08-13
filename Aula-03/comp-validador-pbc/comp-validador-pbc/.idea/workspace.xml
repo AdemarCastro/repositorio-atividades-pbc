@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="77bdba9e-7937-4350-94e3-fa2545c095d2" name="Changes" comment="Criei um componente de validação com as seguintes classes e seus respectivos testes (positivo e negativo): Abstract Validator, NameValidator, AdressValidator, CPFValidator, CNPJValidator, EmailValidator, PhoneValidator">
+      <change beforePath="$PROJECT_DIR$/../../.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../bin/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../bin/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../bin/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../bin/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../bin/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../bin/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../bin/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../bin/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../bin/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../bin/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../bin/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../bin/src/imagens/doc-avaliacao.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../bin/src/imagens/exemplo-saida.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../bin/src/main/java/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../bin/src/main/java/controller/ClienteController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../bin/src/main/java/controller/DependenteController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../bin/src/main/java/controller/HomeController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../bin/src/main/java/model/Cliente.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../bin/src/main/java/model/Dependente.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../bin/src/main/java/model/Pessoa.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../bin/src/main/java/repositorio/ClienteRepositorio.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../bin/src/main/java/teste/TestaCliente.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../bin/src/main/java/util/Validacao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../bin/src/main/java/util/ValidadorCPF.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../bin/src/main/java/util/ValidadorEmail.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../bin/src/main/java/util/ValidadorSomenteLetrasEEspaco.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../bin/src/main/java/util/ValidadorSomenteLetrasEEspacoComAcentos.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../bin/src/main/java/util/ValidadorTelefone.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../bin/src/main/java/view/ClienteUI.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../bin/src/main/java/view/DependenteUI.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../bin/src/main/resources/META-INF/maven/archetype.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../bin/src/main/resources/archetype-resources/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../bin/src/main/resources/archetype-resources/src/main/java/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../bin/src/main/resources/archetype-resources/src/test/java/AppTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/base/Validator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/base/Validator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/exceptions/ValidationException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/exceptions/ValidationException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/validators/AddressValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/validators/AddressValidator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/validators/CNPJValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/validators/CNPJValidator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/validators/CPFValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/validators/CPFValidator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/validators/EmailValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/validators/EmailValidator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/validators/EndressValidator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/validators/NameValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/validators/NameValidator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/validators/PhoneValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/validators/PhoneValidator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/AddressValidationTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/AddressValidatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/AddressValidatorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/CNPJValidatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CNPJValidatorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/CPFValidatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CPFValidatorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/EmailValidatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/EmailValidatorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/EndressValidationTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/NameValidatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/NameValidatorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/PhoneValidatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PhoneValidatorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TesteValidator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/imagens/doc-avaliacao.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/imagens/exemplo-saida.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/main/java/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/main/java/controller/ClienteController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/main/java/controller/ClienteController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/main/java/controller/DependenteController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/main/java/controller/DependenteController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/main/java/controller/HomeController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/main/java/controller/HomeController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/main/java/model/Cliente.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/main/java/model/Cliente.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/main/java/model/Dependente.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/main/java/model/Dependente.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/main/java/model/Pessoa.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/main/java/model/Pessoa.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/main/java/model/RelacaoEnum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/main/java/model/RelacaoEnum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/main/java/repositorio/ClienteRepositorio.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/main/java/repositorio/ClienteRepositorio.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/main/java/teste/TestaCliente.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/main/java/view/ClienteUI.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/main/java/view/ClienteUI.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/main/java/view/DependenteUI.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/main/java/view/DependenteUI.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/main/resources/META-INF/maven/archetype.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/main/resources/archetype-resources/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/main/resources/archetype-resources/src/main/java/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/main/resources/archetype-resources/src/test/java/AppTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../target/classes/Main.class" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectId" id="2Tto1J4G2ZUbTPg9ajb5z0p81JK" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager" selected="JUnit.CNPJValidatorTest">
+    <configuration name="AddressValidatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="comp-validador-pbc" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="AddressValidatorTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CNPJValidatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="comp-validador-pbc" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CNPJValidatorTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CPFValidatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="comp-validador-pbc" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CPFValidatorTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EmailValidatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="comp-validador-pbc" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="EmailValidatorTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PhoneValidatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="comp-validador-pbc" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="PhoneValidatorTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.CNPJValidatorTest" />
+        <item itemvalue="JUnit.AddressValidatorTest" />
+        <item itemvalue="JUnit.PhoneValidatorTest" />
+        <item itemvalue="JUnit.EmailValidatorTest" />
+        <item itemvalue="JUnit.CPFValidatorTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="77bdba9e-7937-4350-94e3-fa2545c095d2" name="Changes" comment="" />
+      <created>1691871524779</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1691871524779</updated>
+      <workItem from="1691871525818" duration="26534000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Criei um componente de validação com as seguintes classes e seus respectivos testes (positivo e negativo): Abstract Validator, NameValidator, AdressValidator, CPFValidator, CNPJValidator, EmailValidator, PhoneValidator" />
+    <option name="LAST_COMMIT_MESSAGE" value="Criei um componente de validação com as seguintes classes e seus respectivos testes (positivo e negativo): Abstract Validator, NameValidator, AdressValidator, CPFValidator, CNPJValidator, EmailValidator, PhoneValidator" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/comp_validador_pbc$CNPJValidatorTest_testValidCNPJ.ic" NAME="CNPJValidatorTest.testValidCNPJ Coverage Results" MODIFIED="1691892865560" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+</project>
