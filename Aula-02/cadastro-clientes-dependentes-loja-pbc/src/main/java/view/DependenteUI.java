@@ -27,8 +27,8 @@ public class DependenteUI {
         System.out.print("E-mail: ");
         String email = entrada.nextLine();
 
-        System.out.print("CPF: ");
-        String cpf = entrada.nextLine();
+        System.out.print("CPF ou CNPJ: ");
+        String id = entrada.nextLine();
 
         System.out.print("Relação: ");
         String relacao = entrada.nextLine();
@@ -36,7 +36,7 @@ public class DependenteUI {
         System.out.println("-------------------------------------------");
 
         try {
-            Dependente dependente = new Dependente(nome, endereco, telefone, email, cpf,
+            Dependente dependente = new Dependente(nome, endereco, telefone, email, id,
                     RelacaoEnum.valueOf(formatarTexto(relacao)));
             return dependente;
         } catch (RuntimeException e) {
@@ -56,7 +56,11 @@ public class DependenteUI {
             System.out.println("    Endereço: " + dependente.getEndereco());
             System.out.println("    Telefone: " + dependente.getTelefone());
             System.out.println("    Email: " + dependente.getEmail());
-            System.out.println("    CPF: " + dependente.getCpf());
+
+            if (dependente.getCpf() != null) System.out.println("    CPF: " + dependente.getCpf());
+
+            if (dependente.getCnpj() != null) System.out.println("    CNPJ: " + dependente.getCnpj());
+
             System.out.println("    Relação: " + dependente.getRelacao());
 
             numDependente++;

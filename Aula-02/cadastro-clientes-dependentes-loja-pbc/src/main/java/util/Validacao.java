@@ -2,5 +2,6 @@ package util;
 
 public interface Validacao {
 
-	void validar(String texto);
+	void validar(Object value);
+
 }

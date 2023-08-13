@@ -1,10 +1,6 @@
 package model;
 
-import util.ValidadorCPF;
-import util.ValidadorEmail;
-import util.ValidadorSomenteLetrasEEspaco;
-import util.ValidadorSomenteLetrasEEspacoComAcentos;
-import util.ValidadorTelefone;
+import util.*;
 
 public class Pessoa {
 
@@ -17,6 +13,8 @@ public class Pessoa {
     private String email;
     private String cpf;
 
+    private String cnpj;
+
     // Se eu não tiver o construtor padrão não poderei cliar apenas um new e depois
     // definir os parametros
 
@@ -24,12 +22,16 @@ public class Pessoa {
 
     }
 
-    public Pessoa(String nome, String endereco, String telefone, String email, String cpf) {
+    public Pessoa(String nome, String endereco, String telefone, String email, String id) {
         setNome(nome);
         setEndereco(endereco);
         setTelefone(telefone);
         setEmail(email);
-        setCpf(cpf);
+
+        String tipo = new CPFOuCNPJ().cpfOuCnpj(id);
+
+        if (tipo == "cpf") setCpf(id);
+        if (tipo == "cnpj") setCpnj(id);
     }
 
     public String getNome() {
@@ -75,6 +77,13 @@ public class Pessoa {
     public void setCpf(String cpf) {
     	new ValidadorCPF().validar(cpf);
         this.cpf = cpf;
+    }
+
+    public String getCnpj() {return cnpj; }
+
+    public void setCpnj(String cnpj) {
+        new ValidadorCNPJ().validar(cnpj);
+        this.cnpj = cnpj;
     }
 
 }

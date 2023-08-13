@@ -27,13 +27,13 @@ public class ClienteUI {
         System.out.print("E-mail: ");
         String email = entrada.nextLine();
 
-        System.out.print("CPF: ");
-        String cpf = entrada.nextLine();
+        System.out.print("CPF ou CNPJ: ");
+        String id = entrada.nextLine();
 
         System.out.println("-------------------------------------------");
 
         try {
-            Cliente cliente = new Cliente(nome, endereco, telefone, email, cpf);
+            Cliente cliente = new Cliente(nome, endereco, telefone, email, id);
             return cliente;
         } catch (RuntimeException e) {
             System.out.println("ERRO! Não foi possível inserir pessoa: " + e.getMessage());
@@ -53,7 +53,10 @@ public class ClienteUI {
             System.out.println("Endereço: " + cliente.getEndereco());
             System.out.println("Telefone: " + cliente.getTelefone());
             System.out.println("Email: " + cliente.getEmail());
-            System.out.println("CPF: " + cliente.getCpf());
+
+            if (cliente.getCpf() != null) System.out.println("CPF: " + cliente.getCpf());
+
+            if (cliente.getCnpj() != null) System.out.println("CNPJ: " + cliente.getCnpj());
 
             dependenteUI.listar(cliente.getDependentes());
 
