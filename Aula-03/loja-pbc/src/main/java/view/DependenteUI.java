@@ -3,6 +3,7 @@ package view;
 import java.text.Normalizer;
 import java.util.List;
 import java.util.Scanner;
+import java.util.regex.Pattern;
 
 import exceptions.ValidationException;
 import model.Dependente;
@@ -32,7 +33,8 @@ public class DependenteUI {
         String tipo = "";
 
         while (true) {
-            System.out.println("  Pessoa Física ou Jurídica?");
+
+            System.out.println("\n******* Pessoa Física ou Jurídica? ********");
             System.out.println("  1. Física (CPF)");
             System.out.println("  2. Jurídica (CNPJ)");
 
@@ -42,14 +44,17 @@ public class DependenteUI {
 
             try {
                 int opcao = entrada.nextInt();
+                entrada.nextLine();
 
                 if (opcao == 1) {
-                    System.out.print("\n  CPF: ");
+                    System.out.println("------------------- CPF -------------------");
+                    System.out.print("  CPF: ");
                     id = entrada.nextLine();
                     tipo = "cpf";
                     break;
                 } else if (opcao == 2) {
-                    System.out.print("\n  CNPJ: ");
+                    System.out.println("------------------ CNPJ -------------------");
+                    System.out.print("  CNPJ: ");
                     id = entrada.nextLine();
                     tipo = "cnpj";
                     break;
@@ -64,14 +69,14 @@ public class DependenteUI {
 
         }
 
-        System.out.print("Relação: ");
+        System.out.print("\nRelação: ");
         String relacao = entrada.nextLine();
 
         System.out.println("-------------------------------------------");
 
         try {
             Dependente dependente = new Dependente(nome, endereco, telefone, email, id, tipo,
-                    RelacaoEnum.valueOf(formatarTexto(relacao)));
+                    RelacaoEnum.valueOf(relacao));
             return dependente;
         } catch (RuntimeException | ValidationException e) {
             System.out.println("ERRO! Não foi possível inserir pessoa: " + e.getMessage());
@@ -92,9 +97,9 @@ public class DependenteUI {
             System.out.println("    Email: " + dependente.getEmail());
 
             if (dependente.getCpf() != null) {
-                System.out.println("CPF: " + dependente.getCpf());
+                System.out.println("    CPF: " + dependente.getCpf());
             } else if (dependente.getCnpj() != null) {
-                System.out.println("CNPJ: " + dependente.getCnpj());
+                System.out.println("    CNPJ: " + dependente.getCnpj());
             }
 
             System.out.println("    Relação: " + dependente.getRelacao());
@@ -103,24 +108,5 @@ public class DependenteUI {
         }
 
         System.out.println("-------------------------------------------");
-    }
-
-    public static String removerAcentos(String texto) {
-        return Normalizer.normalize(texto, Normalizer.Form.NFD)
-                .replaceAll("\\p{M}", "")
-                .toLowerCase();
-    }
-
-    public static String formatarTexto(String texto) {
-        texto = removerAcentos(texto);
-
-        if (texto.isEmpty()) {
-            return texto;
-        }
-
-        char primeiraLetra = Character.toUpperCase(texto.charAt(0));
-        String restante = texto.substring(1).toLowerCase();
-
-        return primeiraLetra + restante;
     }
 }

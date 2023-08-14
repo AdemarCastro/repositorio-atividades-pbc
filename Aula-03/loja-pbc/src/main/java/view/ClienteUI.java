@@ -32,7 +32,8 @@ public class ClienteUI {
         String tipo = "";
 
         while (true) {
-            System.out.println("  Pessoa Física ou Jurídica?");
+
+            System.out.println("\n******* Pessoa Física ou Jurídica? ********");
             System.out.println("  1. Física (CPF)");
             System.out.println("  2. Jurídica (CNPJ)");
 
@@ -42,14 +43,17 @@ public class ClienteUI {
 
             try {
                 int opcao = entrada.nextInt();
+                entrada.nextLine();
 
                 if (opcao == 1) {
-                    System.out.print("\n  CPF: ");
+                    System.out.println("------------------- CPF -------------------");
+                    System.out.print("  CPF: ");
                     id = entrada.nextLine();
                     tipo = "cpf";
                     break;
                 } else if (opcao == 2) {
-                    System.out.print("\n  CNPJ: ");
+                    System.out.println("------------------ CNPJ -------------------");
+                    System.out.print("  CNPJ: ");
                     id = entrada.nextLine();
                     tipo = "cnpj";
                     break;

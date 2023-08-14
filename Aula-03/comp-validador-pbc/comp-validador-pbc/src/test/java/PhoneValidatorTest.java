@@ -1,6 +1,5 @@
 import exceptions.ValidationException;
 import org.junit.jupiter.api.Test;
-import validators.CPFValidator;
 import validators.PhoneValidator;
 
 import static org.junit.jupiter.api.Assertions.assertTrue;

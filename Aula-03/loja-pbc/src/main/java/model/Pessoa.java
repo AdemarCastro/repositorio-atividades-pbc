@@ -15,7 +15,7 @@ public class Pessoa {
     private String cpf;
     private String cnpj;
 
-    // Se eu não tiver o construtor padrão não poderei criar apenas um new e depois
+    // Se eu não tiver o construtor padrão não poderá criar apenas um new e depois
     // definir os parametros
 
     public Pessoa() {
@@ -41,7 +41,7 @@ public class Pessoa {
 
     public void setNome(String nome) throws ValidationException {
         NameValidator nameValidator = new NameValidator("Nome", "apenas letras com acentou ou sem e espaços.");
-        nameValidator.validate(nome);
+        nameValidator.check(nome);
 
         this.nome = nome;
     }
@@ -52,7 +52,7 @@ public class Pessoa {
 
     public void setEndereco(String endereco) throws ValidationException{
         AddressValidator addressValidator = new AddressValidator("Endereço", "insira no formato: número, rua, bairro, cidade, estado(XX), CEP(XXXXX-XXX).");
-        addressValidator.validate(endereco);
+        addressValidator.check(endereco);
 
         this.endereco = endereco;
     }
@@ -63,7 +63,7 @@ public class Pessoa {
 
     public void setTelefone(String telefone) throws ValidationException{
         PhoneValidator phoneValidator = new PhoneValidator("Telefone", "insira no formato: +DD (XX) YXXXX-XXXX.");
-        phoneValidator.validate(telefone);
+        phoneValidator.check(telefone);
 
         this.telefone = telefone;
     }
@@ -74,7 +74,7 @@ public class Pessoa {
 
     public void setEmail(String email) throws ValidationException{
         EmailValidator emailValidator = new EmailValidator("Email", "insira no formato: exemplo@exemplo.com");
-        emailValidator.validate(email);
+        emailValidator.check(email);
 
         this.email = email;
     }
@@ -85,7 +85,7 @@ public class Pessoa {
 
     public void setCpf(String cpf) throws ValidationException{
         CPFValidator cpfValidator = new CPFValidator("CPF", "insira um CPF válido e com o formato: XXX.XXX.XXX-XX.");
-        cpfValidator.validate(cpf);
+        cpfValidator.check(cpf);
 
         this.cpf = cpf;
     }
@@ -96,7 +96,7 @@ public class Pessoa {
 
     public void setCnpj(String cnpj) throws ValidationException{
         CNPJValidator cnpjValidator = new CNPJValidator("CNPJ", "insira um CNPJ válido e com o formato: XX.XXX.XXX/XXXX-XX");
-        cnpjValidator.validate(cnpj);
+        cnpjValidator.check(cnpj);
 
         this.cnpj = cnpj;
     }

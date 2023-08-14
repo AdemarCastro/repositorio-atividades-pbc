@@ -7,6 +7,6 @@ public enum RelacaoEnum {
 
     // Se fosse um ambiente de produçao seria melhor criar uma entidade de relação.
 
-    Conjunge, Pai, Mae, Filho, Enteado;
+    Conjunge, Pai, Mãe, Filho, Enteado;
 
 }

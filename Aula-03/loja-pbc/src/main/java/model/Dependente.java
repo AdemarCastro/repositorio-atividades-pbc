@@ -2,6 +2,9 @@ package model;
 
 import exceptions.ValidationException;
 
+import java.text.Normalizer;
+import java.util.regex.Pattern;
+
 public class Dependente extends Pessoa {
 
     public Dependente() {

@@ -3,9 +3,13 @@ package base;
 import exceptions.ValidationException;
 
 import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
 import java.util.logging.FileHandler;
 import java.util.logging.Level;
 import java.util.logging.Logger;
+import java.util.logging.SimpleFormatter;
 
 public abstract class Validator {
 
@@ -14,7 +18,10 @@ public abstract class Validator {
     private String errorMessage;
 
     private Class<?> type;
-    private Logger logger;
+
+    private static Logger globalLogger;
+    private static FileHandler fileHandler;
+
 
 
     public Validator(String fieldName, String errorMessage, Class<?> type) {
@@ -22,13 +29,40 @@ public abstract class Validator {
         this.errorMessage = errorMessage;
         this.type = type;
 
-        // Configure the logger
-        logger = Logger.getLogger(this.getClass().getName());
-        try {
-            FileHandler fileHandler = new FileHandler("logs/validation.log", true);
-            logger.addHandler(fileHandler);
-        } catch (IOException e) {
-            logger.log(Level.SEVERE, "Error setting up logger", e);
+        // Criar a pasta "logs" na raiz do projeto, caso não exista
+        createLogsDirectory();
+
+        configureLogger();
+    }
+
+    private void createLogsDirectory() {
+        Path logsPath = Paths.get("logs");
+        if (!Files.exists(logsPath)) {
+            try {
+                Files.createDirectory(logsPath);
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+        }
+    }
+
+    private synchronized void configureLogger() {
+        if (globalLogger == null) {
+            globalLogger = Logger.getLogger("GlobalLogger");
+
+            try {
+                if (fileHandler == null) {
+                    // Obtém o diretório onde o JAR está localizado
+                    String jarDirectory = Paths.get("").toAbsolutePath().toString();
+                    String logFilePath = Paths.get(jarDirectory, "logs", "validation.log").toString();
+
+                    fileHandler = new FileHandler("logs/validation.log", true);
+                    fileHandler.setFormatter(new SimpleFormatter());
+                }
+                globalLogger.addHandler(fileHandler);
+            } catch (IOException e) {
+                globalLogger.log(Level.SEVERE, "Error setting up logger", e);
+            }
         }
     }
 
@@ -64,9 +98,8 @@ public abstract class Validator {
         try {
             verifyType(value);
             validate(value);
-            logger.info("Validation successfull: " + getFieldName());
         }catch(Exception e){
-            logger.warning("Validation error: " + getFieldName() + ": " + e.getMessage());
+            globalLogger.warning("Validation error: " + getFieldName() + ": " + e.getMessage());
             throw new ValidationException(this.getFieldName() + ": " + this.getErrorMessage(), e);
 
         }
