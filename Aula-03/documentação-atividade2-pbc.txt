@@ -1,0 +1,66 @@
+Componente de Validação:
+
+1. Preciso criar as Classes: ✔
+	NameValidator ✔
+	AddressValidator ✔
+	CPFValidator ✔
+	CNPJValidator ✔
+	EmailValidator ✔
+	PhoneValidator ✔
+2. Preciso criar testes para todas as Classes Validator: ✔
+	NameValidator ✔
+	AddressValidator ✔
+	CPFValidator ✔
+	CNPJValidator ✔
+	EmailValidator ✔
+	PhoneValidator ✔
+
+      2.1. Revisar as Classes criadas até agora para que se adequem ao padrão que defini: ✔
+
+3. Preciso criar um log de erros para a Classe Abstrata Validator: ✔
+
+
+Projeto Loja-Pbc:
+
+4. Implementar a funcionalidade de aceitar CNPJ ao cadastrar Cliente e Dependente no loja-pbc: ✔
+
+5. Criar os seguintes cenários de teste para o repositório loja-pbc: ✔
+	a. Cadastrar um cliente com nome válido e inválido: ✔
+	b. Realizar cenários de teste com endereço:
+		I. Cadastrar cliente com endereço válido: ✔
+		II. Cadastrar cliente com número do endereço inválido: ✔
+		III. Cadastrar cliente com rua do endereço inválido: ✔
+		IV. Cadastrar cliente com bairro do endereço inválido: ✔
+		V. Cadastrar cliente com cidade do endereço inválido: ✔
+		VI. Cadastrar cliente com estado do endereço inválido: ✔
+		VII. Cadastrar cliente com CEP do endereço inválido: ✔
+	c. Cadastrar um cliente com telefone válido e inválido: ✔
+	d. Cadastrar um cliente com email válido e inválido: ✔
+	e. Realizar cenários de teste com o CPF:
+		I. Cadastrar cliente com CPF válido: ✔
+		II. Cadastrar cliente utilizando CPF com formato inválido: ✔
+		III. Cadastrar cliente utilizando CPF inexistente: ✔
+	f. Realizar cenários de teste com o CNPJ:
+		I. Cadastrar cliente com CNPJ válido: ✔
+		II. Cadastrar cliente utilizando CNPJ com formato inválido: ✔
+		III. Cadastrar cliente utilizando CNPJ inexistente: ✔
+	g. Cadastrar um dependente com nome válido e inválido: ✔
+	h. Realizar cenários de teste com endereço:
+		I. Cadastrar dependente com endereço válido: ✔
+		II. Cadastrar dependente com número do endereço inválido: ✔
+		III. Cadastrar dependente com rua do endereço inválido: ✔
+		IV. Cadastrar dependente com bairro do endereço inválido: ✔
+		V. Cadastrar dependente com cidade do endereço inválido: ✔
+		VI. Cadastrar dependente com estado do endereço inválido: ✔
+		VII. Cadastrar dependente com CEP do endereço inválido: ✔
+	i. Cadastrar um dependente com telefone válido e inválido: ✔
+	j. Cadastrar um dependente com email válido e inválido: ✔
+	l. Realizar cenários de teste com o CPF:
+		I. Cadastrar dependente com CPF válido: ✔
+		II. Cadastrar dependente utilizando CPF com formato inválido: ✔
+		III. Cadastrar dependente utilizando CPF inexistente: ✔
+	m. Realizar cenários de teste com o CNPJ:
+		I. Cadastrar dependente com CNPJ válido: ✔
+		II. Cadastrar dependente utilizando CNPJ com formato inválido: ✔
+		III. Cadastrar dependente utilizando CNPJ inexistente: ✔
+	
