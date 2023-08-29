@@ -4,3 +4,15 @@ ago 14, 2023 2:21:13 PM base.Validator check
 ADVERTÃŠNCIA: Validation error: Address: Address has invalid number.
 ago 14, 2023 2:42:47 PM base.Validator check
 ADVERTÃŠNCIA: Validation error: Address: Address has invalid number.
+ago 28, 2023 9:43:06 PM base.Validator check
+ADVERTÊNCIA: Validation error: Address: Address has invalid number.
+ago 28, 2023 9:43:06 PM base.Validator check
+ADVERTÊNCIA: Validation error: CNPJ: CNPJ does not exist.
+ago 28, 2023 9:43:06 PM base.Validator check
+ADVERTÊNCIA: Validation error: CPF: CPF does not exist.
+ago 28, 2023 9:43:06 PM base.Validator check
+ADVERTÊNCIA: Validation error: Email: Email invalid, enter in this format: exemplo@exemplo.com
+ago 28, 2023 9:43:06 PM base.Validator check
+ADVERTÊNCIA: Validation error: Name: Name it should just be unaccented letters, with accent and space.
+ago 28, 2023 9:43:06 PM base.Validator check
+ADVERTÊNCIA: Validation error: Phone: Phone invalid, enter in this format: +DD (XX) XXXXX-XXXX.
