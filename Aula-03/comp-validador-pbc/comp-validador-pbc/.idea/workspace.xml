@@ -10,11 +10,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="77bdba9e-7937-4350-94e3-fa2545c095d2" name="Changes" comment="Criei um componente de validação com as seguintes classes e seus respectivos testes (positivo e negativo): Abstract Validator, NameValidator, AdressValidator, CPFValidator, CNPJValidator, EmailValidator, PhoneValidator">
+<<<<<<< HEAD
       <change afterPath="$PROJECT_DIR$/../../../Aula-08/comp-log-pbc/log/pom.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../../Aula-08/comp-log-pbc/log/src/main/java/log/model/Log.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../../Aula-08/comp-log-pbc/log/src/main/java/log/ui/ILogger.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../loja-pbc/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../loja-pbc/.idea/workspace.xml" afterDir="false" />
+=======
+      <change afterPath="$PROJECT_DIR$/../../../Aula-13/pbc-componente-webservice-aula/logs/validation.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Aula-13/pbc-componente-webservice-aula/logs/validation.log.lck" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Aula-13/pbc-componente-webservice-aula/src/main/java/ifam/pbccomponentewebserviceaula/controller/ValidationController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Aula-13/pbc-webservice-cliente/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Aula-13/pbc-webservice-cliente/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Aula-13/pbc-webservice-cliente/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Aula-13/pbc-webservice-cliente/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Aula-13/pbc-webservice-cliente/src/main/java/ifam/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/validation.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/validation.log" afterDir="false" />
+>>>>>>> d84f08a73c002c4d630a4ed24bd6b71b11123fb6
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,6 +45,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
   </component>
+<<<<<<< HEAD
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -38,6 +53,11 @@
       </MavenGeneralSettings>
     </option>
   </component>
+=======
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 8
+}]]></component>
+>>>>>>> d84f08a73c002c4d630a4ed24bd6b71b11123fb6
   <component name="ProjectId" id="2Tto1J4G2ZUbTPg9ajb5z0p81JK" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -46,6 +66,7 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
+<<<<<<< HEAD
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
@@ -67,6 +88,30 @@
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+=======
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "jdk.selected.JAVA_MODULE": "openjdk-20",
+    "last_opened_file_path": "D:/Salve_Aqui_Seus_Arquivos/AdemarCastro/repositorio-atividades-pbc/Aula-03/comp-validador-pbc/comp-validador-pbc",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Artifacts",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "vue.rearranger.settings.migration": "true"
+>>>>>>> d84f08a73c002c4d630a4ed24bd6b71b11123fb6
   }
 }</component>
   <component name="RunManager" selected="JUnit.AddressValidatorTest">
