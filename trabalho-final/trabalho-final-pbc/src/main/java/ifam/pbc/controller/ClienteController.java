@@ -28,27 +28,4 @@ public class ClienteController {
 
     }
 
-    public void exibirInformacoesCliente(Cliente cliente) {
-        if (cliente == null) {
-            System.out.println("Cliente é necessário");
-            return;
-        }
-
-        Class<?> clienteClass = cliente.getClass();
-        Field[] fields = clienteClass.getDeclaredFields();
-
-        System.out.println("Informações do Cliente:");
-        for (Field field : fields) {
-            field.setAccessible(true); // Permite acessar campos privados
-            String fieldName = field.getName();
-            Object fieldValue;
-            try {
-                fieldValue = field.get(cliente);
-            } catch (IllegalAccessException e) {
-                fieldValue = "Não foi possível acessar o valor";
-            }
-            System.out.println(fieldName + ": " + fieldValue);
-        }
-    }
-
 }
