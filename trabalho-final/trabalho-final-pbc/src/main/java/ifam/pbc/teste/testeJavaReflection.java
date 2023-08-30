@@ -5,7 +5,7 @@ import ifam.pbc.model.Cliente;
 
 import static ifam.pbc.repository.ClienteRepository.procurarNaList;
 
-public class testeJavaReflection {
+public class TesteJavaReflection {
 
     // Exemplo de uso do Java Reflection
     public static void main(String[] args) {
