@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="comp-validador-pbc:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/comp_validador_pbc_jar</output-path>
+    <root id="archive" name="comp-validador-pbc.jar">
+      <element id="module-output" name="comp-validador-pbc" />
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,5 @@
+2023-08-21 15:20:47
+testando o log...
+2023-08-21 15:20:47
+java.lang.Exception: Exception 01
+	at base.TestLogger.main(TestLogger.java:16)

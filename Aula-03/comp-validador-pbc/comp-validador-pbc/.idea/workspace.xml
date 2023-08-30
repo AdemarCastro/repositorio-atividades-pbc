@@ -10,51 +10,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="77bdba9e-7937-4350-94e3-fa2545c095d2" name="Changes" comment="Criei um componente de validação com as seguintes classes e seus respectivos testes (positivo e negativo): Abstract Validator, NameValidator, AdressValidator, CPFValidator, CNPJValidator, EmailValidator, PhoneValidator">
-      <change afterPath="$PROJECT_DIR$/../../comp-validador-pbc-java20.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../comp_validador_pbc_jar_java20.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../loja-pbc/DependenteTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../loja-pbc/logs/validation.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../loja-pbc/src/test/java/DependenteTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Aula-02/cadastro-clientes-dependentes-loja-pbc/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Aula-02/cadastro-clientes-dependentes-loja-pbc/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../comp-validador-pbc.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Aula-08/comp-log-pbc/log/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Aula-08/comp-log-pbc/log/src/main/java/log/model/Log.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Aula-08/comp-log-pbc/log/src/main/java/log/ui/ILogger.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/validation.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/validation.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/comp_validador_pbc_jar/comp-validador-pbc.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/comp_validador_pbc_jar/comp-validador-pbc.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/base/Validator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/base/Validator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/AddressValidatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/AddressValidatorTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/CPFValidatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CPFValidatorTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/NameValidatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/NameValidatorTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/PhoneValidatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PhoneValidatorTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/base/Validator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/base/Validator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/exceptions/ValidationException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/exceptions/ValidationException.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/validators/AddressValidator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/validators/AddressValidator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/validators/CNPJValidator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/validators/CNPJValidator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/validators/CPFValidator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/validators/CPFValidator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/validators/EmailValidator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/validators/EmailValidator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/validators/NameValidator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/validators/NameValidator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/validators/PhoneValidator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/validators/PhoneValidator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/AddressValidatorTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/AddressValidatorTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/CNPJValidatorTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/CNPJValidatorTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/CPFValidatorTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/CPFValidatorTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/EmailValidatorTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/EmailValidatorTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/NameValidatorTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/NameValidatorTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/PhoneValidatorTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/PhoneValidatorTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../comp_validador_pbc_jar.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../comp_validador_pbc_jar/comp-validador-pbc.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../../comp_validador_pbc_jar/comp-validador-pbc.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../loja-pbc/.classpath" beforeDir="false" afterPath="$PROJECT_DIR$/../../loja-pbc/.classpath" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../loja-pbc/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../loja-pbc/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../loja-pbc/.project" beforeDir="false" afterPath="$PROJECT_DIR$/../../loja-pbc/.project" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../loja-pbc/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/../../loja-pbc/.settings/org.eclipse.jdt.core.prefs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../loja-pbc/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../loja-pbc/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../loja-pbc/src/main/java/libs/comp-validador-pbc.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../../loja-pbc/src/main/java/libs/comp-validador-pbc.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../loja-pbc/src/main/java/model/Dependente.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../loja-pbc/src/main/java/model/Dependente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../loja-pbc/src/main/java/model/Pessoa.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../loja-pbc/src/main/java/model/Pessoa.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../loja-pbc/src/main/java/model/RelacaoEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../loja-pbc/src/main/java/model/RelacaoEnum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../loja-pbc/src/main/java/teste/TestaCliente.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../loja-pbc/src/main/java/view/ClienteUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../loja-pbc/src/main/java/view/ClienteUI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../loja-pbc/src/main/java/view/DependenteUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../loja-pbc/src/main/java/view/DependenteUI.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,6 +31,13 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
   </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
   <component name="ProjectId" id="2Tto1J4G2ZUbTPg9ajb5z0p81JK" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -79,29 +46,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "Downloaded.Files.Path.Enabled": "false",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "jdk.selected.JAVA_MODULE": "openjdk-20",
-    "last_opened_file_path": "C:/Users/Adema.DESKTOP-MKK2GAA/Desktop/Trabalho/TADS/4º SEMESTRE/PBC/repositorio-atividades-pbc/Aula-03/loja-pbc",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Artifacts",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;openjdk-20&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Adema.DESKTOP-MKK2GAA/Desktop/Trabalho/TADS/4º SEMESTRE/PBC/repositorio-atividades-pbc/Aula-03/loja-pbc&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Artifacts&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="JUnit.AddressValidatorTest">
     <configuration name="AddressValidatorTest and 5 more" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="comp-validador-pbc" />
@@ -156,6 +123,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.AddressValidatorTest" />
@@ -178,6 +156,8 @@
       <workItem from="1691949442310" duration="2190000" />
       <workItem from="1691951700483" duration="1665000" />
       <workItem from="1692025497794" duration="3956000" />
+      <workItem from="1692383908665" duration="273000" />
+      <workItem from="1692587315796" duration="1168000" />
     </task>
     <servers />
   </component>

@@ -5,7 +5,44 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c8eb674a-f039-418b-922d-fd038f6a8822" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../../Aula-02/cadastro-clientes-dependentes-loja-pbc/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Aula-02/cadastro-clientes-dependentes-loja-pbc/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aula-08/comp-log-pbc/log/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aula-08/comp-log-pbc/log/src/main/java/log/model/Log.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aula-08/comp-log-pbc/log/src/main/java/log/ui/ILogger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Preparo-prova-01/comp-validador-pbc/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Preparo-prova-01/comp-validador-pbc/logs/validator-Address-2023-08-21-15-29-49.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Preparo-prova-01/comp-validador-pbc/logs/validator-CNPJ-2023-08-21-15-29-49.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Preparo-prova-01/comp-validador-pbc/logs/validator-CPF-2023-08-21-15-29-49.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Preparo-prova-01/comp-validador-pbc/logs/validator-Email-2023-08-21-15-29-49.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Preparo-prova-01/comp-validador-pbc/logs/validator-Name-2023-08-21-15-29-49.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Preparo-prova-01/comp-validador-pbc/logs/validator-Phone-2023-08-21-15-29-49.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Preparo-prova-01/comp-validador-pbc/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Preparo-prova-01/comp-validador-pbc/src/main/java/base/Validator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Preparo-prova-01/comp-validador-pbc/src/main/java/exceptions/ValidationException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Preparo-prova-01/comp-validador-pbc/src/main/java/validators/AddressValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Preparo-prova-01/comp-validador-pbc/src/main/java/validators/CNPJValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Preparo-prova-01/comp-validador-pbc/src/main/java/validators/CPFValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Preparo-prova-01/comp-validador-pbc/src/main/java/validators/EmailValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Preparo-prova-01/comp-validador-pbc/src/main/java/validators/NameValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Preparo-prova-01/comp-validador-pbc/src/main/java/validators/PhoneValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Preparo-prova-01/comp-validador-pbc/src/test/java/AddressValidatorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Preparo-prova-01/comp-validador-pbc/src/test/java/CNPJValidatorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Preparo-prova-01/comp-validador-pbc/src/test/java/CPFValidatorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Preparo-prova-01/comp-validador-pbc/src/test/java/EmailValidatorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Preparo-prova-01/comp-validador-pbc/src/test/java/NameValidatorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Preparo-prova-01/comp-validador-pbc/src/test/java/PhoneValidatorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Preparo-prova-01/pbc-logger-aula/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Preparo-prova-01/pbc-logger-aula/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Preparo-prova-01/pbc-logger-aula/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Preparo-prova-01/pbc-logger-aula/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Preparo-prova-01/pbc-logger-aula/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Preparo-prova-01/pbc-logger-aula/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Preparo-prova-01/pbc-logger-aula/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Preparo-prova-01/pbc-logger-aula/src/main/java/pbc/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Preparo-prova-01/pbc-logger-aula/src/main/java/pbc/base/ILog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Preparo-prova-01/pbc-logger-aula/src/main/java/pbc/base/Logger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Preparo-prova-01/pbc-logger-aula/src/main/java/pbc/exception/LoggerException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Preparo-prova-01/pbc-logger-aula/src/test/java/base/TestLogger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Preparo-prova-01/pbc-logger-aula/validation-2023-08-21-15-20-47.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +62,13 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
   <component name="ProjectId" id="2TrwpXUluzHmQxqjZ278rnF69mc" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -35,7 +79,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/Adema.DESKTOP-MKK2GAA/Desktop/Trabalho/TADS/4º SEMESTRE/PBC/repositorio-atividades-pbc/Aula-03/loja-pbc",
+    "last_opened_file_path": "C:/Users/Adema.DESKTOP-MKK2GAA/Desktop/Trabalho/TADS/4º SEMESTRE/PBC/provas/pbc-prova-01/comp-secundario-renato",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -131,6 +175,9 @@
       <workItem from="1691949386309" duration="11008000" />
       <workItem from="1692025489830" duration="8812000" />
       <workItem from="1692037362789" duration="2132000" />
+      <workItem from="1692383907640" duration="274000" />
+      <workItem from="1692646727137" duration="479000" />
+      <workItem from="1692991245426" duration="116000" />
     </task>
     <servers />
   </component>

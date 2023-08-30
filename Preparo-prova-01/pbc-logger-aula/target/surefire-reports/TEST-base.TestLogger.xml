@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="0" failures="0" name="base.TestLogger" time="0" errors="0" skipped="0">
+  <properties>
+    <property name="java.vendor" value="IBM Corporation"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.runtime.version" value="11.0.20+7"/>
+    <property name="user.name" value="Castro"/>
+    <property name="java.compiler" value="j9jit29"/>
+    <property name="os.encoding" value="UTF-8"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="com.ibm.util.extralibs.properties" value=""/>
+    <property name="com.ibm.jcl.checkClassPath" value=""/>
+    <property name="user.language" value="pt"/>
+    <property name="com.ibm.oti.vm.bootstrap.library.path" value="C:\Users\Adema.DESKTOP-MKK2GAA\.jdks\semeru-11.0.20-1\bin\default;C:\Users\Adema.DESKTOP-MKK2GAA\.jdks\semeru-11.0.20-1\bin"/>
+    <property name="idea.version" value="2022.3.3"/>
+    <property name="sun.boot.library.path" value="C:\Users\Adema.DESKTOP-MKK2GAA\.jdks\semeru-11.0.20-1\bin\default;C:\Users\Adema.DESKTOP-MKK2GAA\.jdks\semeru-11.0.20-1\bin"/>
+    <property name="classworlds.conf" value="C:\Program Files\JetBrains\IntelliJ IDEA 2022.3.3\plugins\maven\lib\maven3\bin\m2.conf"/>
+    <property name="jdk.extensions.version" value="11.0.20.0-ea"/>
+    <property name="java.version" value="11.0.20"/>
+    <property name="user.timezone" value="America/Manaus"/>
+    <property name="com.ibm.system.agent.path" value="C:\Users\Adema.DESKTOP-MKK2GAA\.jdks\semeru-11.0.20-1\bin"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="com.ibm.oti.vm.library.version" value="29"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="maven.conf" value="C:\Program Files\JetBrains\IntelliJ IDEA 2022.3.3\plugins\maven\lib\maven3/conf"/>
+    <property name="java.class.version" value="55.0"/>
+    <property name="user.country" value="BR"/>
+    <property name="java.home" value="C:\Users\Adema.DESKTOP-MKK2GAA\.jdks\semeru-11.0.20-1"/>
+    <property name="java.vm.info" value="JRE 11 Windows 10 amd64-64-Bit Compressed References 20230628_674 (JIT enabled, AOT enabled)
+OpenJ9   - 6eed0535c
+OMR      - e80bff83b
+JCL      - 20e0e53157 based on jdk-11.0.20+7"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.awt.fonts" value=""/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.version" value="v0.40.0-release-6eed0535c"/>
+    <property name="user.variant" value=""/>
+    <property name="maven.ext.class.path" value="C:\Program Files\JetBrains\IntelliJ IDEA 2022.3.3\plugins\maven\lib\maven-event-listener.jar"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="jdk.extensions.name" value="Extensions for OpenJDK for Eclipse OpenJ9"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.specification.maintenance.version" value="2"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="ibm.signalhandling.sigint" value="true"/>
+    <property name="user.home" value="C:\Users\Adema.DESKTOP-MKK2GAA"/>
+    <property name="com.ibm.cpu.endian" value="little"/>
+    <property name="java.version.date" value="2023-07-18"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="ibm.signalhandling.sigchain" value="true"/>
+    <property name="java.library.path" value="C:\Users\Adema.DESKTOP-MKK2GAA\.jdks\semeru-11.0.20-1\bin\default;C:\Users\Adema.DESKTOP-MKK2GAA\.jdks\semeru-11.0.20-1\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files\Docker\Docker\resources\bin;C:\Exiftool;C:\Program Files\dotnet\;C:\maven\apache-maven-3.9.2\bin;C:\MinGW\bin;C:\Program Files\Git\cmd;C:\Users\Adema.DESKTOP-MKK2GAA\AppData\Roaming\npm;C:\Program Files\Java\jdk-17\bin;C:\Program Files\Java\jre-1.8\bin;C:\Users\Adema.DESKTOP-MKK2GAA\AppData\Local\Programs\Python\Python311\Scripts\;C:\Users\Adema.DESKTOP-MKK2GAA\AppData\Local\Programs\Python\Python311\;C:\Users\Adema.DESKTOP-MKK2GAA\AppData\Local\Microsoft\WindowsApps;C:\Users\Adema.DESKTOP-MKK2GAA\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Adema.DESKTOP-MKK2GAA\AppData\Roaming\npm;C:\Users\Adema.DESKTOP-MKK2GAA\AppData\Local\Programs\Python\Python311;C:\Users\Adema.DESKTOP-MKK2GAA\AppData\Local\Programs\Python\Python311\Scripts;;C:\Program Files\JetBrains\IntelliJ IDEA 2022.3.3\bin;;."/>
+    <property name="java.vendor.url" value="https://www.ibm.com/semeru-runtimes"/>
+    <property name="java.vm.vendor" value="Eclipse OpenJ9"/>
+    <property name="java.fullversion" value="11.0.20+7
+JRE 11 Windows 10 amd64-64-Bit Compressed References 20230628_674 (JIT enabled, AOT enabled)
+OpenJ9   - 6eed0535c
+OMR      - e80bff83b
+JCL      - 20e0e53157 based on jdk-11.0.20+7"/>
+    <property name="maven.home" value="C:\Program Files\JetBrains\IntelliJ IDEA 2022.3.3\plugins\maven\lib\maven3"/>
+    <property name="java.runtime.name" value="IBM Semeru Runtime Open Edition"/>
+    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version=2022.3.3 install"/>
+    <property name="java.class.path" value="C:\Program Files\JetBrains\IntelliJ IDEA 2022.3.3\plugins\maven\lib\maven3\boot\plexus-classworlds-2.6.0.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2022.3.3\plugins\maven\lib\maven3\boot\plexus-classworlds.license"/>
+    <property name="jansi.passthrough" value="true"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="java.io.tmpdir" value="C:\Users\ADEMA~1.DES\AppData\Local\Temp\"/>
+    <property name="java.vendor.url.bug" value="https://github.com/ibmruntimes/Semeru-Runtimes/issues"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\Adema.DESKTOP-MKK2GAA\Desktop\Trabalho\TADS\4º SEMESTRE\PBC\repositorio-atividades-pbc\Preparo-prova-01\pbc-logger-aula"/>
+    <property name="ibm.system.encoding" value="Cp1252"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="ibm.signalhandling.rs" value="false"/>
+    <property name="user.dir" value="C:\Users\Adema.DESKTOP-MKK2GAA\Desktop\Trabalho\TADS\4º SEMESTRE\PBC\repositorio-atividades-pbc\Preparo-prova-01\pbc-logger-aula"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.name" value="Eclipse OpenJ9 VM"/>
+    <property name="com.ibm.oti.shared.enabled" value="false"/>
+    <property name="com.ibm.vm.bitmode" value="64"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="com.ibm.oti.configuration" value="scar"/>
+    <property name="java.vendor.version" value="11.0.20.0-m2"/>
+  </properties>
+</testsuite>
