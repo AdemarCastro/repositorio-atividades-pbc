@@ -1,8 +1,10 @@
 # Trabalho Final de Programação Baseada a Componentes - Aprendendo a utilizar Java Reflection em um projeto Java Beans
 
 **Documento Oficial da Atividade**
+![Documento da atividade do trabalho final de PBC](https://github.com/AdemarCastro/repositorio-atividades-pbc/assets/25653698/35342682-7830-4788-860a-1d39cb7be911)
 
 **Resultado**
+![Saida do projeto de atividade do trabalho final de PBC](https://github.com/AdemarCastro/repositorio-atividades-pbc/assets/25653698/1ac104cc-1c19-4bc0-8910-c593b1847acd)
 
 ## O que é este projeto?
 
